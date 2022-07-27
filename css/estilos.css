@@ -112,7 +112,6 @@ h1 {
     line-height: 1,5;
 }
 .propiedades-video { 
-    margin-left: 250px;
     border: 1px solid salmon;
     border-radius: 10px;
 }
@@ -123,7 +122,7 @@ h1 {
     border: 2px solid salmon;
     border-radius: 5px;
     width: 350px;
-    margin-left: 450px;
+    margin-left: 28%;
     align-items: center;
     justify-content: center;
 }
@@ -207,7 +206,7 @@ width: 100%;
 .card-videoppal {
     background-color: aliceblue;
     width: 500px;
-    margin-left: 340px;
+    margin-left: 20%;
     align-items: stretch;
     align-content: stretch;
     font-size: 24px;
@@ -291,6 +290,7 @@ font-family: 'Finlandica', sans-serif;
         height: 440px;
         padding: 20px;
         margin: 25px;
+        margin-left: 33%;
         border-radius: 15%;
         background-color: yellow;
         justify-content: center;
