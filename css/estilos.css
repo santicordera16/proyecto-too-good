@@ -2,6 +2,7 @@ a{
     text-decoration: none;
     color: white;
     font-size: larger;
+
 }
 .propiedades-header {
     width: 100%;
@@ -46,6 +47,17 @@ border-radius: 15%;
     align-items: center;
     padding: 5px;
     margin: 5px;
+}
+
+.nav-link {
+    color: antiquewhite;
+    padding: 0%;
+}
+
+.h4 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-weight: 100;
 }
 .menu-nave__enlaces {
     border-radius: 14%;
@@ -287,19 +299,22 @@ font-family: 'Finlandica', sans-serif;
     }
     .formulario-faq {
         width: 30%;
-        height: 440px;
+        height: 550px;
         padding: 20px;
         margin: 25px;
         margin-left: 33%;
         border-radius: 15%;
         background-color: yellow;
         justify-content: center;
+        box-sizing: content-box;
+    
+       
     }
 
     .contacto-botones {
         margin: 10px 10px 10px 10px;
         padding: 5px 5px 5px 5px;
-
+    
     }
   
 .contacto-opcion {
@@ -309,6 +324,7 @@ font-family: 'Finlandica', sans-serif;
 .contacto-rectangulo{
     padding: 5px;
     margin: 10px;
+    width: 250px;
     border-radius: 10px;
    
 
@@ -418,8 +434,9 @@ font-family: 'Finlandica', sans-serif;
 .clase_degradado1 {
     width: 500px;
     padding: 15px;
-    height: 100vh;
+    height: 100%;
     margin: 45px;
+    margin-left: 25%;
     background-image: linear-gradient(to right, yellow, red);
 
 }
@@ -474,9 +491,9 @@ font-family: 'Finlandica', sans-serif;
     .clase_degradado1 {
         width: 300px;
         padding: 10px;
-        height: 70vh;
+        height: 100%;
         margin: 25px;
-        margin-left: 100px;
+        margin-left: 25%;
         background-image: linear-gradient(to right, yellow, red);
     
     }
