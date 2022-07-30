@@ -106,6 +106,18 @@ p {
     min-height: 100vh;
 }
 
+.td{
+    border-width: 0;
+    border-color: antiquewhite;
+    
+}
+
+.h2 {
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 15px;
+    width: max-content;
+}
 h1 {
     font-family: 'Finlandica', sans-serif;
     font-size: 95px;
@@ -218,7 +230,6 @@ width: 100%;
 .card-videoppal {
     background-color: aliceblue;
     width: 500px;
-    margin-left: 20%;
     align-items: stretch;
     align-content: stretch;
     font-size: 24px;
