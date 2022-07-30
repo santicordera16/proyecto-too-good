@@ -54,6 +54,10 @@ border-radius: 15%;
     padding: 0%;
 }
 
+.titulo::first-letter {
+    color: blueviolet;
+    font-size: 55px;
+}
 .h4 {
     margin-top: 100px;
     margin-bottom: 40px;
@@ -117,6 +121,12 @@ p {
     background-color: black;
     border-radius: 15px;
     width: max-content;
+    font-size: medium;
+}
+.h2-contacto {
+    color: black;
+    font-size: medium;
+    line-height: 35px;
 }
 h1 {
     font-family: 'Finlandica', sans-serif;
@@ -310,7 +320,7 @@ font-family: 'Finlandica', sans-serif;
     }
     .formulario-faq {
         width: 30%;
-        height: 550px;
+        height: max-content;
         padding: 20px;
         margin: 25px;
         margin-left: 33%;
@@ -322,9 +332,16 @@ font-family: 'Finlandica', sans-serif;
        
     }
 
+    input:focus {
+        background-color: black;
+        color: antiquewhite;
+    }
+
+
     .contacto-botones {
         margin: 10px 10px 10px 10px;
         padding: 5px 5px 5px 5px;
+
     
     }
   
@@ -448,30 +465,49 @@ font-family: 'Finlandica', sans-serif;
     height: 100%;
     margin: 45px;
     margin-left: 25%;
-    background-image: linear-gradient(to right, yellow, red);
+    background-color: white;
 
+}
+.clase_degradado1:hover {
+    background-image: linear-gradient(to right, yellow, red);
 }
  
 .animaciones-cards {
     animation-name: respuestas;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    animation-duration: 4s;
     animation-iteration-count: infinite;  
    }
    
-@keyframes nuevos_ingresos_card {
+
+@keyframes respuestas {
     0% { transform: rotate(0deg);
         opacity: 1;
     }
 
   50%  {    opacity: 0;
 }
- 100% {  transform: rotate(360deg);
+ 100% {  transform: rotate(0deg);
     opacity: 1;
 } 
 }   
 
-    
+.animacion-texto {
+    animation-name: texto-ppio;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes texto-ppio {
+    0% { transform: rotate(0deg);
+        opacity: 1;
+    }
+
+  50%  {    opacity: 0;
+}
+ 100% {  transform: rotate(0deg);
+    opacity: 1;
+} 
+}    
     
 
  /* movil */
@@ -505,10 +541,13 @@ font-family: 'Finlandica', sans-serif;
         height: 100%;
         margin: 25px;
         margin-left: 25%;
-        background-image: linear-gradient(to right, yellow, red);
+        background-color: white;
     
     }
-    
+
+    .clase_degradado1:hover {
+        background-image: linear-gradient(to right, yellow, red);
+    }
     h1 {
         font-family: 'Finlandica', sans-serif;
         font-size: 40px;
@@ -657,9 +696,10 @@ font-family: 'Finlandica', sans-serif;
 
         .formulario-faq {
             width: 60%;
-            height: 420px;
+            height: max-content;
             padding: 20px;
             margin: 25px;
+            margin-left: 15%;
             border-radius: 15%;
             background-color: yellow;
             justify-content: center;
