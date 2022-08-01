@@ -344,6 +344,7 @@ font-family: 'Finlandica', sans-serif;
 
     
     }
+
   
 .contacto-opcion {
     text-transform: uppercase;
@@ -388,7 +389,7 @@ font-family: 'Finlandica', sans-serif;
     padding: 1rem;
     display: grid;
     width: 50%;
-    height: auto;
+    height: 100%;
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 1fr, 1fr, 1fr, 1fr;
     grid-template-areas: 
@@ -400,14 +401,17 @@ font-family: 'Finlandica', sans-serif;
     grid-row-gap: 15px;
   justify-items: stretch;
   align-items: stretch;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .grid_titulo_catalogo {
     justify-content: center;
-    height: 70px;
-    width: 200px;
-    margin-left: 500px;
+    width: 20%;
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid_hijo {
@@ -557,6 +561,10 @@ font-family: 'Finlandica', sans-serif;
        
     
     }
+    .titulo::first-letter {
+        color: blueviolet;
+        font-size: 45px;
+    }
 
     .propiedades-texto {
         color: black;
@@ -658,7 +666,8 @@ font-family: 'Finlandica', sans-serif;
         grid-row-gap: 15px;
       justify-items: stretch;
       align-items: stretch;
-      margin-left: 130px;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .grid_titulo_catalogo {
@@ -666,7 +675,8 @@ font-family: 'Finlandica', sans-serif;
         height: 70px;
         margin-top: 15px;
         width: 200px;
-        margin-left: 170px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
     }
 
