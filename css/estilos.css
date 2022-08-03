@@ -14,20 +14,53 @@ a{
     border-radius: 10px;
 }
 
+.body {
+    background-color: black;
+}
+
+.header {
+    background-color:black;
+    opacity: 100%;
+    width: 100%;
+    z-index: 1000;
+
+    font-family: 'Finlandica', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
 .header_icono {
     font-size: 32px;
     color: orange;
     text-decoration: none;
-    margin-block-start: 15px; 
+    margin-right: 10px;
     display: none;
     
 }
+
+
 .estilogo-header {
 display: flex;
 padding: 5px;
 margin: 5px;
 border-radius: 15%;
 }
+
+.nav {
+display: flex;
+}
+
+.item-oculto {
+display: none;
+}
+
+
 .color-texto {
     color: blueviolet;
     padding: 12px;
@@ -41,14 +74,14 @@ border-radius: 15%;
     font-family: 'Finlandica', sans-serif;
 }
 
+
 .menu-nave {
     display: flex;
-    list-style: none;
+    flex-direction: row;
     align-items: center;
-    padding: 5px;
-    margin: 5px;
-}
 
+}
+    
 .nav-link {
     color: antiquewhite;
     padding: 0%;
@@ -76,7 +109,12 @@ border-radius: 15%;
     font-size: 35px;
 }
 
-
+*,::after ,::before {
+box-sizing: content-box;
+}
+.row {
+    --bs-gutter-x: 0;
+}
 p {
 color: black;
 }
@@ -106,9 +144,12 @@ p {
 }
 
 .main_empresa {
-    margin-top: 200px;
     min-height: 100vh;
+    margin-top: 200px;
+    
 }
+   
+ 
 
 .td{
     border-width: 0;
@@ -470,6 +511,7 @@ font-family: 'Finlandica', sans-serif;
     margin: 45px;
     margin-left: 25%;
     background-color: white;
+    margin-top: 100px;
 
 }
 .clase_degradado1:hover {
@@ -517,18 +559,47 @@ font-family: 'Finlandica', sans-serif;
  /* movil */
 @media screen and (max-width: 599px) {
 
-
-    .menu-nave {
-        display: none;
-        
+    .header{
+        opacity: 85%;
     }
-    
+
     .header_icono {
         display: block;
-        color: crimson;
-        text-decoration: none;
-        margin-left: 310px;
+    }
 
+    .nav:target {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        background-color: black;
+        opacity: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000000;
+        width: auto;
+        height: min-content;
+    }
+    
+    .menu-nave {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        height: 100%;
+        margin-left: 2rem;    
+        color:#424242
+    }
+    
+    .menu-nave__enlaces {
+        margin-left: 0.5rem;
+        font-size: 22px;
+    }
+    
+    .item-oculto{
+        display: block;
     }
 
     .propiedades-fondo {
