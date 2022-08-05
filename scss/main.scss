@@ -1,8 +1,9 @@
-.santi {
-    color: red;
-
-}
-
-.santi2 {
-    background-color: aqua;
-}
+@import "parciales/base";
+@import "parciales/header";
+@import "parciales/footer";
+@import "parciales/index";
+@import "parciales/catalogo";
+@import "parciales/empresa";
+@import "parciales/contacto";
+@import "parciales/faq";
+@import "parciales/extras";
