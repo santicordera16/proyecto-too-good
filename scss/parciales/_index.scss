@@ -1,0 +1,57 @@
+.titulo::first-letter {
+    color: blueviolet;
+    font-size: 55px;
+}
+
+.propiedades-texto {
+    color: black;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+    text-align: justify;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+
+
+.propiedades-video { 
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+
+
+.clase_degradado1 {
+    width: 500px;
+    padding: 15px;
+    height: 100%;
+    margin: 45px;
+    margin-left: 25%;
+    background-color: white;
+    margin-top: 100px;
+
+}
+.clase_degradado1:hover {
+    background-image: linear-gradient(to right, yellow, red);
+}
+ 
+.animacion-texto {
+    animation-name: texto-ppio;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes texto-ppio {
+    0% { transform: rotate(0deg);
+        opacity: 1;
+    }
+
+  50%  {    opacity: 0;
+}
+ 100% {  transform: rotate(0deg);
+    opacity: 1;
+} 
+}    
