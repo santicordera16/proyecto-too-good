@@ -14,10 +14,12 @@
 
 </head>
 <body class="propiedades-fondo">
-    <header class="propiedades-header">
-        <img class="estilogo-header" src="../imagenes/too good con logo.jpg" alt="Logo de Too Good" width="150" height="120">
-        <a href="#" class="jam jam-menu header_icono"></a>
-        <nav>
+    <header class="propiedades-header header">
+        <img class="estilogo-header" src="../imagenes/logacho.jpg" alt="Logo de Too Good" width="150" height="120">
+        
+
+<a href="#abierto" class="jam jam-menu header_icono"></a>
+        <nav class="nav" id="abierto">
        
         <ul class="menu-nave color-texto2">
  <!-- Lista de enlaces para navegar dentro del sitio --> 
@@ -32,46 +34,56 @@
             <li class="menu-nave__enlaces">
                 <a href="./contacto.html">Contacto</a>
             </li>
-            <li class="menu-nave__enlaces color-texto2">
+            <li class="menu-nave__enlaces">
                 <a href="./faq.html">Preguntas Frecuentes</a>
 
             </li>
-          
+
+            <li class="menu-nave__enlaces item-oculto">
+                <a href="#cerrado">✖️</a>
+               </li>
+           
+            
         </ul>
         </nav>
     </header>
-<form class="formulario-faq"> 
-    <div> 
-        <label class="contacto-opcion" for="nombre">nombre</label>
-        <input class="contacto-rectangulo" type="text" placeholder="Ingrese su nombre completo">
-    </div>
-    <div> 
-        <label class="contacto-opcion" for="email">email</label>
-        <input class="contacto-rectangulo" type="email" placeholder="aaaaa@gmail.com">
-    </div>
-    <div> 
-        <label class="contacto-opcion" for="password"> password</label>
-        <input class="contacto-rectangulo" type="password" placeholder="Ingrese su contraseña">
-        <div>
-            <button type="button" class="btn btn-dark contacto-botones">Ingresar</button>
+    <main>
+        <section>
+            <form class="formulario-faq"> 
+                <div> 
+                    <label class="contacto-opcion" for="nombre">nombre</label>
+                    <input class="contacto-rectangulo" type="text" placeholder="Ingrese su nombre completo">
+                </div>
+                <div> 
+                    <label class="contacto-opcion" for="email">email</label>
+                    <input class="contacto-rectangulo" type="email" placeholder="aaaaa@gmail.com">
+                </div>
+                <div> 
+                    <label class="contacto-opcion" for="password"> password</label>
+                    <input class="contacto-rectangulo" type="password" placeholder="Ingrese su contraseña">
+                    <div>
+                        <button type="button" class="btn btn-dark contacto-botones">Ingresar</button>
+                        
+                      </div>
+                </div>
+                <div>
+            <h2 class="h2-contacto"> ¿Te gustan nuestras prendas?</h2>
+            <label class="contacto-opcion">si</label>
+            <input  type="radio" name="si" value="si">
+            <label class="contacto-opcion">no</label>
+            <input type="radio" name="si" value="no">
+              </div>
+              <div>
+                <button type="button" class="btn btn-dark contacto-botones">Enviar</button>
+                
+              </div>
+              <h2 class="h2-contacto"> ¿Queres ser cliente nuestro?</h2>
+              <button type="button" class="btn btn-dark contacto-botones">SER CLIENTE!!</button>
+              
+            </form>
             
-          </div>
-    </div>
-    <div>
-<h2 class="h2-contacto"> ¿Te gustan nuestras prendas?</h2>
-<label class="contacto-opcion">si</label>
-<input  type="radio" name="si" value="si">
-<label class="contacto-opcion">no</label>
-<input type="radio" name="si" value="no">
-  </div>
-  <div>
-    <button type="button" class="btn btn-dark contacto-botones">Enviar</button>
-    
-  </div>
-  <h2 class="h2-contacto"> ¿Queres ser cliente nuestro?</h2>
-  <button type="button" class="btn btn-dark contacto-botones">SER CLIENTE!!</button>
-  
-</form>
+        </section>
+    </main>
 
 <footer class="footer">
     <img class="propiedades-logo__footer" src="../imagenes/logo too good naranja.png" alt="logo naranja too good" width="45" height="40">

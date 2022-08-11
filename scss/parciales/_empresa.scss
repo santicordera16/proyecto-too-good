@@ -1,0 +1,60 @@
+
+.h4 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+.fuente-grande {
+    font-size: 35px;
+}
+
+*,::after ,::before {
+box-sizing: content-box;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+
+.TooGoodArg_1 {
+    background-color: black;
+    font-size: larger;
+    color: aliceblue;
+    padding: 1rem;
+   
+    transition: padding 2s;
+    
+}
+    
+
+.TooGoodArg_1:hover {
+    padding: 2rem;
+
+}
+
+.main_empresa {
+    min-height: 100vh;
+    margin-top: 200px;
+    
+}
+   
+
+.span-empresa {
+    color: red;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+     justify-content: center;
+     margin-left: 180px;
+     font-size: 23px;
+     text-shadow: 0.1em 0.1em;
+    
+}
+    .texto-empresa {
+        color: black;
+        font-weight: bold;
+        font-family: 'Finlandica', sans-serif;
+         justify-content: center;
+         margin-left: 125px;
+         font-size: 27px;
+        
+    }

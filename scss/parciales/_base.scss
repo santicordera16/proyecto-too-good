@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menu-nave__enlaces {
+    border-radius: 14%;
+    color: black;
+    padding: 4px;
+    margin-left: 18px;
+    font-size: 15px;
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: none;
+}
+
+body {
+font-family: 'Finlandica', sans-serif;
+background-color: black;
+}
+
+
+
+.main-empresa {
+        min-height: 100vh;
+        margin-top: 200px;
+    }
+    
+    .propiedades-fondo {
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        height: auto;
+        width: auto;
+    }
+    
+  
+p {
+    color: black;
+    }
+    
+
+    
+.propiedades-fondo {
+    background-image: url(../imagenes/logacho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 95px;
+    color: black;
+    padding: 5px;
+    margin: 25px;
+   
+
+}
+
+
+.propiedades-links {
+    display: flex;
+    background-position: 12%; 
+    border: 2px solid salmon;
+    border-radius: 5px;
+    width: 350px;
+    margin-left: 28%;
+    align-items: center;
+    justify-content: center;
+}
+
+.propiedades-links_1 {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    margin: 20px;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    
+}
+
