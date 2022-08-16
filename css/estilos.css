@@ -195,7 +195,7 @@ main {
   margin-top: 100px; }
 
 .clase_degradado1:hover {
-  background-image: linear-gradient(to right, yellow, red); }
+  background-image: linear-gradient(to right, #504b4b, black); }
 
 .animacion-texto {
   animation-name: texto-ppio;
@@ -374,6 +374,23 @@ main {
   justify-content: center;
   margin-left: 125px;
   font-size: 27px; }
+
+.w-100 {
+  width: 40% !important;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+  margin-top: 15px; }
+
+.h2-empresa {
+  font-size: 33px;
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: black;
+  color: antiquewhite;
+  width: max-content;
+  height: max-content; }
 
 .h2 {
   color: antiquewhite;
@@ -647,6 +664,12 @@ input:focus {
     margin-left: 20px;
     font-size: 22px;
     margin-top: 45px; }
+  .w-100 {
+    width: 40% !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+    margin-top: 15px; }
   .h3-faq {
     font-family: 'Finlandica', sans-serif;
     font-size: 16px;
