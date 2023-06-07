@@ -1,0 +1,14 @@
+$colorprincipal: blueviolet;
+
+$redes: (
+whatsapp: green,
+facebook: #3b5998,
+instagram: #f09433, 
+);
+
+@each $clave, $valor in $redes {
+ 
+    .red-social-#{$clave} {
+        background-color: $valor;
+    }
+}

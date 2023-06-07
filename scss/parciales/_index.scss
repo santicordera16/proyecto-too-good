@@ -1,5 +1,9 @@
 .titulo::first-letter {
+<<<<<<< HEAD
     color: blueviolet;
+=======
+    color: $colorprincipal;
+>>>>>>> 6ad904860c7eebdfd93e01fef528e181ac3d2919
     font-size: 55px;
 }
 
@@ -23,6 +27,10 @@
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6ad904860c7eebdfd93e01fef528e181ac3d2919
 .clase_degradado1 {
     width: 500px;
     padding: 15px;
@@ -34,7 +42,11 @@
 
 }
 .clase_degradado1:hover {
+<<<<<<< HEAD
     background-image: linear-gradient(to right, yellow, red);
+=======
+    background-image: linear-gradient(to right, rgb(80, 75, 75),black);
+>>>>>>> 6ad904860c7eebdfd93e01fef528e181ac3d2919
 }
  
 .animacion-texto {
